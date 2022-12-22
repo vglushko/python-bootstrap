@@ -1,0 +1,20 @@
+[flake8]
+# Glob patterns to exclude certain files/directories from checks
+exclude = .git,__pycache__,.venv,.vscode,.mypy_cache
+# [flake8-quotes] Quotes style for (use 'single' if it works for you)
+inline-quotes = double
+# [flake8-docstrings] Convention for docstring comments
+docstring-convention = google
+# List of codes to ignore:
+# D100 - ignore missing docstring on the public module level (flake8-docstrings)
+# D104 - ignore missing docstring on the public package level (flake8-docstrings)
+# D105 - ignore missing docstring in the magic methods (flake8-docstrings)
+# D107 - ignore missing docstring in the __init__ method (flake8-docstrings)
+# W503 - ignore line breaks before binary operators (flake8)
+ignore = D100,D104,D105,D107,W503
+# [flake8-bugbear] Use exception chaining when raising exception from inside the 'except' block
+extend-select = B904
+# synchronize flake on line length (Black sync on settings)
+max-line-length = 119
+# ignore the 'whitespace before ":"' warning (Black sync on settings)
+extend-ignore = E203
