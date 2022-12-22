@@ -5,7 +5,7 @@ This is the bootstrap project containing an empty development environment for de
 See the [Development Environment for Python Project](https://vglushko.github.io/development/2022/12/22/python-dev-environment.html) my blog post for details.
 
 ## Tools
-The following tools have been configured configured:
+The following tools have been configured:
 
 | Tool    | Description |
 | ------- | ----------- |
